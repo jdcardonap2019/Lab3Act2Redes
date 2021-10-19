@@ -1,0 +1,5 @@
+$37076_spinnerEl=null;a.parentOffsetWidth=0;a.attachedResolver=Vg();a.isCollapsibleThreadingExperiment=J("default_collapse_reply_threads");a.TEST_ONLY={getThreadMarginIncrement:function(){return a.THREAD_MARGIN_INCREMENT}};
+return a};
+p(sS,N);f=sS.prototype;
+f.configureRendererStamper=function(){return{"data.actionMenu":{id:"action-menu",mapping:{menuRenderer:"ytd-menu-renderer"}},"data.authorCommentBadge":{id:"author-comment-badge",mapping:{authorCommentBadgeRenderer:"ytd-author-comment-badge-renderer"}},"data.pinnedCommentBadge":{id:"pinned-comment-badge",mapping:{pinnedCommentBadgeRenderer:"ytd-pinned-comment-badge-renderer"}},"data.sponsorCommentBadge":{id:"sponsor-comment-badge",mapping:{sponsorCommentBadgeRenderer:"ytd-sponsor-comment-badge-renderer"}},"data.sponsorsOnlyBadge":{id:"sponsors-only-badge",
+mapping:{sponsorsOnlyBadgeRenderer:"ytd-sponsors-only-badge-renderer"}},editDialog:{id:"edit-dialog",mapping:{backstagePostDialogRenderer:"ytd-backstage-post-dialog-renderer",commentDialogRenderer:"ytd-c

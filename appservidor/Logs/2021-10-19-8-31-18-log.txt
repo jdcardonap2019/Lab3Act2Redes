@@ -1,0 +1,41 @@
+
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R2
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 469747 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R3
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 473744 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R5
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 474742 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R9
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 474742 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R1
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 477748 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R0
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 474742 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R4
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 482748 microsegundos.
+Nombre archivo enviado: 100MB.txt
+ Tamaño archivo: 1048576
+ Cliente: R8
+ Entrega: exitosa
+ Tiempo estimado: 0 minutos, 14 segundos y 485749 microsegundos.
