@@ -58,7 +58,7 @@ def runApp():
 def connect_client(clientNum):
     client_active[clientNum]=1
     clientes[clientNum].config(bg="#90FF61")
-    connected_clients[clientNum] = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    connected_clients[clientNum] = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     connected_clients[clientNum].connect(ADDR)
     print(f"\n[CONNECTED] Client {clientNum} connected to server {IP}:{PORT}")
     msg = f"{clientNum}"

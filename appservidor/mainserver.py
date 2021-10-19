@@ -17,7 +17,7 @@ requiredCons = 10
 barrier = threading.Barrier(requiredCons) 
 dtn = datetime.now()
 FILE_NAME_LOG = f"appservidor/Logs/"+str(dtn.year)+"-"+str(dtn.month)+"-"+str(dtn.day)+"-"+str(dtn.hour)+"-"+str(dtn.minute)+"-"+str(dtn.second)+"-log.txt"
-creacion = dtn.microsecond
+creacion = dtn.microsecond  
 resultado = MessageBox.askokcancel("Salir", 
 "¿Acepta usar el archivo de 100MB? De lo contrario, se usará el de 250MB para la prueba.")
 if resultado == True:
