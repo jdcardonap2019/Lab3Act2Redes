@@ -2,8 +2,6 @@ import socket
 import threading
 from datetime import datetime
 import os
-from tkinter import *
-from tkinter import messagebox as MessageBox
 import time
 IP = socket.gethostbyname(socket.gethostname())
 PORT = 9999
@@ -18,12 +16,13 @@ barrier = threading.Barrier(requiredCons)
 dtn = datetime.now()
 FILE_NAME_LOG = f"appservidor/Logs/"+str(dtn.year)+"-"+str(dtn.month)+"-"+str(dtn.day)+"-"+str(dtn.hour)+"-"+str(dtn.minute)+"-"+str(dtn.second)+"-log.txt"
 creacion = dtn.microsecond  
-resultado = MessageBox.askokcancel("Salir", 
-"¿Acepta usar el archivo de 100MB? De lo contrario, se usará el de 250MB para la prueba.")
-if resultado == True:
-    filename = "appservidor/files/100MB.txt"
-else: 
+f = open("config.txt","r")
+resultado = f.read(3)
+print("Note que se debe editar el archivo config.txt para seleccionar el tamaño del archivo a enviar. Escriba 250 para enviar el de 250MB, de lo contrario, se usará el de 100MB para la prueba.")
+if resultado == 250:
     filename = "appservidor/files/250MB.txt"
+else: 
+    filename = "appservidor/files/100MB.txt"
 
 def handle_client(conn, addr):
     numeroClientes = ""
